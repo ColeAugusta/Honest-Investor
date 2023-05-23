@@ -1,0 +1,38 @@
+html * {
+    font-family: Cambria;
+}
+body {background-color: whitesmoke;}
+.topnav {
+    position: relative;
+    background-color: green;
+    overflow: hidden;
+}
+.topnav-left a {
+    color: white;
+    float: left;
+    text-align: center;
+    padding: 14px 16px;
+    font-size: 28px;
+}
+.topnav-left a:hover {
+    color: white;
+    text-decoration: none;
+}
+.topnav-centered {
+    float: none;
+    margin-right: 200px;
+    margin-top: 18px;
+    top: 50%;
+    left: 50%;
+}
+.topnav-centered a{
+    color: white;
+    float: none;
+    text-align: center;
+    padding: 20px 25px;
+    font-size: 18px;
+}
+.topnav-centered a:hover {
+    color: white;
+    text-decoration: underline;
+}
